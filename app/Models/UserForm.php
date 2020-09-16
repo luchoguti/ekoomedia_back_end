@@ -12,4 +12,5 @@ class UserForm extends Model
     protected $fillable = [
         'name_user','email','nickname','phone','age'
     ];
+    protected $primaryKey = "id_user";
 }

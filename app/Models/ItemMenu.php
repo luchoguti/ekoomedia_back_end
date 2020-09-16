@@ -12,4 +12,5 @@ class ItemMenu extends Model
     protected $fillable = [
       'description_item_menu'
     ];
+    protected $primaryKey ="id_items_menu";
 }
